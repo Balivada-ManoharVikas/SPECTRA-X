@@ -16,3 +16,9 @@ scipy==1.18.1
 six==1.17.0
 threadpoolctl==3.6.0
 xgboost==3.4.1
+streamlit
+pandas
+numpy
+plotly
+joblib
+scikit-learn
