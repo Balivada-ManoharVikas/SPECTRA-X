@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Temporary files
+*.tmp
+*.log
+
+# Local test outputs
+outputs/
+results/
+
+# Don't accidentally commit Python cache
+src/__pycache__/
+tests/__pycache__/
+# Large notebook artifacts
+Notebooks/data/
+notebooks/data/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Large local datasets
+*.h5
+*.hdf5
